@@ -1,0 +1,2 @@
+[24-Jul-2018 20:05:42 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[22-Oct-2018 06:28:44 UTC] PHP Fatal error:  Call to undefined function iconv() in /home/pineridgelogcabi/public_html/blog/wp-content/plugins/file-manager-advanced/application/library/php/elFinder.class.php on line 3223

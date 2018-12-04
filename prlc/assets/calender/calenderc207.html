@@ -1,0 +1,1827 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+<!-- Mirrored from localhost/old/calender/calender.php?property=1 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Dec 2018 16:46:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+<title>Calender</title>
+
+
+
+<link rel="stylesheet" href="css/style.css" />
+
+
+
+<script src="../../../ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+
+
+
+<script src="../../../code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
+
+<!--- bootstrap ------>
+
+
+
+<link rel="stylesheet" href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+
+<!-- Latest compiled and minified CSS -->
+
+
+
+<link rel="stylesheet" href="../../../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+
+
+
+
+
+<!-- Optional theme -->
+
+
+
+<link rel="stylesheet" href="../../../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+
+
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+
+
+
+<script src="../../../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+
+
+
+<!--- bootstrap ------>
+
+
+
+<script>
+
+
+
+ $(document).ready(function(){
+
+
+
+  $('div.ac').click(function(){
+
+
+
+  var aj = $(this).data('seq');
+
+
+
+  $('div.ac').removeClass('active');
+
+
+
+ $(this).addClass('active');
+
+
+
+  });
+
+
+
+  $("div.full-book").parents("td").addClass('complete');
+
+
+
+ $("div.first-half-book").parents("td").addClass('start');
+
+
+
+ $("div.last-half-book").parents("td").addClass('end');
+
+
+
+ 
+
+
+
+  $('.booking-box.complete').click(function(event){
+
+
+
+        event.stopPropagation();
+
+
+
+    });
+
+
+
+    });
+
+
+
+</script>
+
+
+
+<script>
+
+
+
+function check()
+
+
+
+{
+
+
+
+var retVal= confirm(" Do you want to delete? ");
+
+
+
+if(retVal==true)
+
+
+
+{
+
+
+
+	return true ;
+
+
+
+}
+
+
+
+else
+
+
+
+{
+
+
+
+	return false ;
+
+
+
+}
+
+
+
+}
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+    	<script>
+
+
+
+		$(document).ready(function(){
+
+
+
+			$(".leftButton").hide();
+
+
+
+			$(".ret-book").hide();
+
+
+
+		})
+
+
+
+		</script>
+
+
+
+    
+
+
+
+
+
+
+<script>
+
+
+
+/*calender back button*/
+
+
+
+function goLastMonth(month, year){
+
+
+
+	if(month == 1)
+
+
+
+	{
+
+
+
+		--year;
+
+
+
+		month = 13;
+
+
+
+	}
+
+
+
+	--month;
+
+
+
+	var monthstring = ""+month+"";
+
+
+
+	var monthlength = monthstring.length;
+
+
+
+	if(monthlength <= 1)
+
+
+
+	{
+
+
+
+		monthstring = "0" + monthstring;
+
+
+
+	}
+
+
+
+	document.location.href = "?month="+monthstring+"&year="+year;
+
+
+
+}
+
+
+
+/*calender forward button */
+
+
+
+function goNextMonth(month, year){
+
+
+
+	if(month == 12)
+
+
+
+	{
+
+
+
+		++year;
+
+
+
+		month = 0;
+
+
+
+	}
+
+
+
+	++month;
+
+
+
+	var monthstring = ""+month+"";
+
+
+
+	var monthlength = monthstring.length;
+
+
+
+	if(monthlength <= 1)
+
+
+
+	{
+
+
+
+		monthstring = "0" + monthstring;
+
+
+
+	}
+
+
+
+	document.location.href = "?month="+monthstring+"&year="+year;
+
+
+
+}
+
+
+
+</script>
+
+
+
+<link rel="stylesheet" href="../../../code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
+
+  <script src="../../../code.jquery.com/jquery-1.10.2.js"></script>
+
+
+
+  <script src="../../../code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+
+
+  <link rel="stylesheet" href="../../resources/demos/style.html">
+
+
+
+  <!--<script>
+
+
+
+$(document).ready(function(e) {
+
+
+
+	$('#book-sub').click(function(){
+
+
+
+    var name = $('#first-name').val();
+
+
+
+	var email = $('#email').val();
+
+
+
+	
+
+
+
+        if(name=="")
+
+
+
+	{
+
+
+
+		alert('Please enter Name.');
+
+
+
+		$('#first-name').focus();
+
+
+
+		return false;
+
+
+
+	}
+
+
+
+	if(email=="")
+
+
+
+	{
+
+
+
+		alert('Please enter Email.');
+
+
+
+		$('#email').focus();
+
+
+
+		return false;
+
+
+
+	}
+
+
+
+
+
+
+
+});
+
+
+
+})
+
+
+
+</script>-->
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+
+<div class="container topCon">
+
+
+
+<div class='success-msg' style='display:none'></div>
+
+
+
+
+
+
+
+
+
+<iframe src="ical_link/index1c207.html?property=1" style="display:none;"></iframe>
+
+
+
+<h4 align="center"><strong>Click on available arrival date and then on departure date to make a reservation. </strong></p>
+
+
+
+
+
+
+
+<div id="next-prev" class="prev-next">
+
+
+
+
+
+
+
+<div class="col-md-4">
+
+
+
+<div class="leftButton">
+
+
+
+<button name="prev-button" onClick="goLastMonth(12,2018)"> <i aria-hidden="true" class="fa fa-arrow-circle-left"></i>  </button></div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="col-md-4 remove_tab">
+
+
+
+
+
+
+
+
+
+
+
+<a class="multi" href="#"><button><i class="fa fa-refresh" aria-hidden="true" style="margin: 0 -11px 0px -13px; padding: 8px;"></i></button></a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="col-md-4 rightButton" style="margin-top: -38px;">
+
+
+
+
+
+
+
+<button name="next-button" onClick="goNextMonth(12,2018)"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i></i></button>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div style="clear:both;"></div>
+
+
+
+</div>
+
+
+
+
+
+
+
+	<div class="col-md-12 back_booking">
+
+    
+	<a class='ret-book' href='calenderbfd1.html?logout=1' >Current Date</a>
+
+	</div>
+
+
+
+
+
+</div>
+
+<style>
+
+@media only screen and (min-width: 768px) {
+    .tabl_1_cal {
+        width: 48%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 688px; && min-width: 300px;) {
+    .tabl_1_cal {
+        width: 100%;
+         
+    }
+}
+
+
+</style>
+
+
+
+
+
+<div class="container" id="call-box-s">
+
+
+
+	<div class="tabl_1 col-md-6 tabl_1_cal">
+
+
+
+<table id="table-1">
+
+
+
+<tr class="hea">
+
+
+
+	<td><div class="cell"></div></td>
+
+
+
+	<td class="cell5">December, 2018</td>
+
+
+
+    <td><div class="cell"></div></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+	<td><div class="cell">Sun</div></td>
+
+
+
+    <td><div class="cell">Mon</div></td>
+
+
+
+    <td><div class="cell">Tues</div></td>
+
+
+
+    <td><div class="cell">Wed</div></td>
+
+
+
+    <td><div class="cell">Thu</div></td>
+
+
+
+    <td><div class="cell">Fri</div></td>
+
+
+
+    <td><div class="cell">Sat</div></td>
+
+
+
+</tr>
+
+
+
+
+
+
+
+<tr><td><div class='cell'></div></td><td><div class='cell'></div></td><td><div class='cell'></div></td><td><div class='cell'></div></td><td><div class='cell'></div></td><td><div class='cell'></div></td><td class='before-today' id='2018-12-01'><div class='ac cell' id='book-2018-12-01' data-theme='div' data-seq='2018-12-01' href='#'>1</div><div class='full-book'><img src='img/full.png' /></div></td></tr><tr><td class='before-today' id='2018-12-02'><div class='ac cell' id='book-2018-12-02' data-theme='div' data-seq='2018-12-02' href='#'>2</div><div class='last-half-book'><img src='img/right.png' /></div></td><td class='today' id='2018-12-03'><div class='ac cell' id='book-2018-12-03' data-theme='div' data-seq='2018-12-03' href='#'>3</div></td><td class='booking-box' id='2018-12-04'><div class='ac cell' id='book-2018-12-04' data-theme='div' data-seq='2018-12-04' href='#'>4</div></td><td class='booking-box' id='2018-12-05'><div class='ac cell' id='book-2018-12-05' data-theme='div' data-seq='2018-12-05' href='#'>5</div></td><td class='booking-box' id='2018-12-06'><div class='ac cell' id='book-2018-12-06' data-theme='div' data-seq='2018-12-06' href='#'>6</div></td><td class='booking-box' id='2018-12-07'><div class='ac cell' id='book-2018-12-07' data-theme='div' data-seq='2018-12-07' href='#'>7</div></td><td class='booking-box' id='2018-12-08'><div class='ac cell' id='book-2018-12-08' data-theme='div' data-seq='2018-12-08' href='#'>8</div></td></tr><tr><td class='booking-box' id='2018-12-09'><div class='ac cell' id='book-2018-12-09' data-theme='div' data-seq='2018-12-09' href='#'>9</div></td><td class='booking-box' id='2018-12-10'><div class='ac cell' id='book-2018-12-10' data-theme='div' data-seq='2018-12-10' href='#'>10</div></td><td class='booking-box' id='2018-12-11'><div class='ac cell' id='book-2018-12-11' data-theme='div' data-seq='2018-12-11' href='#'>11</div></td><td class='booking-box' id='2018-12-12'><div class='ac cell' id='book-2018-12-12' data-theme='div' data-seq='2018-12-12' href='#'>12</div></td><td class='booking-box' id='2018-12-13'><div class='ac cell' id='book-2018-12-13' data-theme='div' data-seq='2018-12-13' href='#'>13</div></td><td class='booking-box' id='2018-12-14'><div class='ac cell' id='book-2018-12-14' data-theme='div' data-seq='2018-12-14' href='#'>14</div></td><td class='booking-box' id='2018-12-15'><div class='ac cell' id='book-2018-12-15' data-theme='div' data-seq='2018-12-15' href='#'>15</div></td></tr><tr><td class='booking-box' id='2018-12-16'><div class='ac cell' id='book-2018-12-16' data-theme='div' data-seq='2018-12-16' href='#'>16</div></td><td class='booking-box' id='2018-12-17'><div class='ac cell' id='book-2018-12-17' data-theme='div' data-seq='2018-12-17' href='#'>17</div></td><td class='booking-box' id='2018-12-18'><div class='ac cell' id='book-2018-12-18' data-theme='div' data-seq='2018-12-18' href='#'>18</div></td><td class='booking-box' id='2018-12-19'><div class='ac cell' id='book-2018-12-19' data-theme='div' data-seq='2018-12-19' href='#'>19</div></td><td class='booking-box' id='2018-12-20'><div class='ac cell' id='book-2018-12-20' data-theme='div' data-seq='2018-12-20' href='#'>20</div></td><td class='booking-box' id='2018-12-21'><div class='ac cell' id='book-2018-12-21' data-theme='div' data-seq='2018-12-21' href='#'>21</div></td><td class='booking-box' id='2018-12-22'><div class='ac cell' id='book-2018-12-22' data-theme='div' data-seq='2018-12-22' href='#'>22</div></td></tr><tr><td class='booking-box' id='2018-12-23'><div class='ac cell' id='book-2018-12-23' data-theme='div' data-seq='2018-12-23' href='#'>23</div></td><td class='booking-box' id='2018-12-24'><div class='ac cell' id='book-2018-12-24' data-theme='div' data-seq='2018-12-24' href='#'>24</div></td><td class='booking-box' id='2018-12-25'><div class='ac cell' id='book-2018-12-25' data-theme='div' data-seq='2018-12-25' href='#'>25</div></td><td class='booking-box' id='2018-12-26'><div class='ac cell' id='book-2018-12-26' data-theme='div' data-seq='2018-12-26' href='#'>26</div></td><td class='booking-box' id='2018-12-27'><div class='ac cell' id='book-2018-12-27' data-theme='div' data-seq='2018-12-27' href='#'>27</div></td><td class='booking-box' id='2018-12-28'><div class='ac cell' id='book-2018-12-28' data-theme='div' data-seq='2018-12-28' href='#'>28</div></td><td class='booking-box' id='2018-12-29'><div class='ac cell' id='book-2018-12-29' data-theme='div' data-seq='2018-12-29' href='#'>29</div></td></tr><tr><td class='booking-box' id='2018-12-30'><div class='ac cell' id='book-2018-12-30' data-theme='div' data-seq='2018-12-30' href='#'>30</div></td><td class='booking-box' id='2018-12-31'><div class='ac cell' id='book-2018-12-31' data-theme='div' data-seq='2018-12-31' href='#'>31</div></td></tr>
+
+
+</table>
+
+
+
+</div>
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<div class="tabl_2 col-md-6 tabl_1_cal">
+
+
+
+<table id="table-2">
+
+
+
+<tr class="hea">
+
+
+
+	<td><div class="cell"></div></td>
+
+
+
+	<td class="cell5">January, 2018</td>
+
+
+
+    <td><div class="cell"></div></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+	<td><div class="cell">Sun</div></td>
+
+
+
+    <td><div class="cell">Mon</div></td>
+
+
+
+    <td><div class="cell">Tues</div></td>
+
+
+
+    <td><div class="cell">Wed</div></td>
+
+
+
+    <td><div class="cell">Thu</div></td>
+
+
+
+    <td><div class="cell">Fri</div></td>
+
+
+
+    <td><div class="cell">Sat</div></td>
+
+
+
+</tr>
+
+
+
+
+
+
+
+<tr><td><div class='cell'></div></td><td class='before-today' id='2018-01-01'><div class='ac cell' id='book-2018-01-01' data-theme='div' data-seq='2018-01-01' href='#'>1</div></td><td class='before-today' id='2018-01-02'><div class='ac cell' id='book-2018-01-02' data-theme='div' data-seq='2018-01-02' href='#'>2</div></td><td class='before-today' id='2018-01-03'><div class='ac cell' id='book-2018-01-03' data-theme='div' data-seq='2018-01-03' href='#'>3</div></td><td class='before-today' id='2018-01-04'><div class='ac cell' id='book-2018-01-04' data-theme='div' data-seq='2018-01-04' href='#'>4</div></td><td class='before-today' id='2018-01-05'><div class='ac cell' id='book-2018-01-05' data-theme='div' data-seq='2018-01-05' href='#'>5</div></td><td class='before-today' id='2018-01-06'><div class='ac cell' id='book-2018-01-06' data-theme='div' data-seq='2018-01-06' href='#'>6</div></td></tr><tr><td class='before-today' id='2018-01-07'><div class='ac cell' id='book-2018-01-07' data-theme='div' data-seq='2018-01-07' href='#'>7</div></td><td class='before-today' id='2018-01-08'><div class='ac cell' id='book-2018-01-08' data-theme='div' data-seq='2018-01-08' href='#'>8</div></td><td class='before-today' id='2018-01-09'><div class='ac cell' id='book-2018-01-09' data-theme='div' data-seq='2018-01-09' href='#'>9</div></td><td class='before-today' id='2018-01-10'><div class='ac cell' id='book-2018-01-10' data-theme='div' data-seq='2018-01-10' href='#'>10</div></td><td class='before-today' id='2018-01-11'><div class='ac cell' id='book-2018-01-11' data-theme='div' data-seq='2018-01-11' href='#'>11</div></td><td class='before-today' id='2018-01-12'><div class='ac cell' id='book-2018-01-12' data-theme='div' data-seq='2018-01-12' href='#'>12</div></td><td class='before-today' id='2018-01-13'><div class='ac cell' id='book-2018-01-13' data-theme='div' data-seq='2018-01-13' href='#'>13</div></td></tr><tr><td class='before-today' id='2018-01-14'><div class='ac cell' id='book-2018-01-14' data-theme='div' data-seq='2018-01-14' href='#'>14</div></td><td class='before-today' id='2018-01-15'><div class='ac cell' id='book-2018-01-15' data-theme='div' data-seq='2018-01-15' href='#'>15</div></td><td class='before-today' id='2018-01-16'><div class='ac cell' id='book-2018-01-16' data-theme='div' data-seq='2018-01-16' href='#'>16</div></td><td class='before-today' id='2018-01-17'><div class='ac cell' id='book-2018-01-17' data-theme='div' data-seq='2018-01-17' href='#'>17</div></td><td class='before-today' id='2018-01-18'><div class='ac cell' id='book-2018-01-18' data-theme='div' data-seq='2018-01-18' href='#'>18</div><div class='first-half-book'><img src='img/left.png' /></div></td><td class='before-today' id='2018-01-19'><div class='ac cell' id='book-2018-01-19' data-theme='div' data-seq='2018-01-19' href='#'>19</div><div class='full-book'><img src='img/full.png' /></div></td><td class='before-today' id='2018-01-20'><div class='ac cell' id='book-2018-01-20' data-theme='div' data-seq='2018-01-20' href='#'>20</div><div class='full-book'><img src='img/full.png' /></div></td></tr><tr><td class='before-today' id='2018-01-21'><div class='ac cell' id='book-2018-01-21' data-theme='div' data-seq='2018-01-21' href='#'>21</div><div class='last-half-book'><img src='img/right.png' /></div></td><td class='before-today' id='2018-01-22'><div class='ac cell' id='book-2018-01-22' data-theme='div' data-seq='2018-01-22' href='#'>22</div></td><td class='before-today' id='2018-01-23'><div class='ac cell' id='book-2018-01-23' data-theme='div' data-seq='2018-01-23' href='#'>23</div></td><td class='before-today' id='2018-01-24'><div class='ac cell' id='book-2018-01-24' data-theme='div' data-seq='2018-01-24' href='#'>24</div></td><td class='before-today' id='2018-01-25'><div class='ac cell' id='book-2018-01-25' data-theme='div' data-seq='2018-01-25' href='#'>25</div></td><td class='before-today' id='2018-01-26'><div class='ac cell' id='book-2018-01-26' data-theme='div' data-seq='2018-01-26' href='#'>26</div></td><td class='before-today' id='2018-01-27'><div class='ac cell' id='book-2018-01-27' data-theme='div' data-seq='2018-01-27' href='#'>27</div></td></tr><tr><td class='before-today' id='2018-01-28'><div class='ac cell' id='book-2018-01-28' data-theme='div' data-seq='2018-01-28' href='#'>28</div></td><td class='before-today' id='2018-01-29'><div class='ac cell' id='book-2018-01-29' data-theme='div' data-seq='2018-01-29' href='#'>29</div></td><td class='before-today' id='2018-01-30'><div class='ac cell' id='book-2018-01-30' data-theme='div' data-seq='2018-01-30' href='#'>30</div></td><td class='before-today' id='2018-01-31'><div class='ac cell' id='book-2018-01-31' data-theme='div' data-seq='2018-01-31' href='#'>31</div></td></tr>
+
+
+</table>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+</div>
+
+
+
+<!------- Start Hiding 3rd and 4th table here -------------
+
+
+
+<div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="tabl_3 col-md-6">
+
+
+
+<table id="table-3" border="1">
+
+
+
+<tr>
+
+
+
+	<td align="center"></td>
+
+
+
+	<td colspan="5" align="center">February, 2018</td>
+
+
+
+    <td align="center"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+	<td width="50px" align="center">Sun</td>
+
+
+
+    <td width="50px" align="center">Mon</td>
+
+
+
+    <td width="50px" align="center">Tues</td>
+
+
+
+    <td width="50px" align="center">Wed</td>
+
+
+
+    <td width="50px" align="center">Thu</td>
+
+
+
+    <td width="50px" align="center">Fri</td>
+
+
+
+    <td width="50px" align="center">Sat</td>
+
+
+
+</tr>
+
+
+
+
+
+
+
+<tr><td><div class='cell'></div></td><td><div class='cell'></div></td><td><div class='cell'></div></td><td><div class='cell'></div></td><td align='center'class='before-today' id='2018-02-01'><div class='ac' id='book-2018-02-01' data-theme='div' data-seq='2018-02-01' href=''>1</div></td><td align='center'class='before-today' id='2018-02-02'><div class='ac' id='book-2018-02-02' data-theme='div' data-seq='2018-02-02' href=''>2</div></td><td align='center'class='before-today' id='2018-02-03'><div class='ac' id='book-2018-02-03' data-theme='div' data-seq='2018-02-03' href=''>3</div></td></tr><tr><td align='center'class='before-today' id='2018-02-04'><div class='ac' id='book-2018-02-04' data-theme='div' data-seq='2018-02-04' href=''>4</div></td><td align='center'class='before-today' id='2018-02-05'><div class='ac' id='book-2018-02-05' data-theme='div' data-seq='2018-02-05' href=''>5</div></td><td align='center'class='before-today' id='2018-02-06'><div class='ac' id='book-2018-02-06' data-theme='div' data-seq='2018-02-06' href=''>6</div></td><td align='center'class='before-today' id='2018-02-07'><div class='ac' id='book-2018-02-07' data-theme='div' data-seq='2018-02-07' href=''>7</div></td><td align='center'class='before-today' id='2018-02-08'><div class='ac' id='book-2018-02-08' data-theme='div' data-seq='2018-02-08' href=''>8</div></td><td align='center'class='before-today' id='2018-02-09'><div class='ac' id='book-2018-02-09' data-theme='div' data-seq='2018-02-09' href=''>9</div></td><td align='center'class='before-today' id='2018-02-10'><div class='ac' id='book-2018-02-10' data-theme='div' data-seq='2018-02-10' href=''>10</div></td></tr><tr><td align='center'class='before-today' id='2018-02-11'><div class='ac' id='book-2018-02-11' data-theme='div' data-seq='2018-02-11' href=''>11</div></td><td align='center'class='before-today' id='2018-02-12'><div class='ac' id='book-2018-02-12' data-theme='div' data-seq='2018-02-12' href=''>12</div></td><td align='center'class='before-today' id='2018-02-13'><div class='ac' id='book-2018-02-13' data-theme='div' data-seq='2018-02-13' href=''>13</div></td><td align='center'class='before-today' id='2018-02-14'><div class='ac' id='book-2018-02-14' data-theme='div' data-seq='2018-02-14' href=''>14</div></td><td align='center'class='before-today' id='2018-02-15'><div class='ac' id='book-2018-02-15' data-theme='div' data-seq='2018-02-15' href=''>15</div></td><td align='center'class='before-today' id='2018-02-16'><div class='ac' id='book-2018-02-16' data-theme='div' data-seq='2018-02-16' href=''>16</div><div class='first-half-book'><img src='img/left.png' /></div></td><td align='center'class='before-today' id='2018-02-17'><div class='ac' id='book-2018-02-17' data-theme='div' data-seq='2018-02-17' href=''>17</div><div class='full-book'><img src='img/full.png' /></div></td></tr><tr><td align='center'class='before-today' id='2018-02-18'><div class='ac' id='book-2018-02-18' data-theme='div' data-seq='2018-02-18' href=''>18</div><div class='last-half-book'><img src='img/right.png' /></div></td><td align='center'class='before-today' id='2018-02-19'><div class='ac' id='book-2018-02-19' data-theme='div' data-seq='2018-02-19' href=''>19</div></td><td align='center'class='before-today' id='2018-02-20'><div class='ac' id='book-2018-02-20' data-theme='div' data-seq='2018-02-20' href=''>20</div></td><td align='center'class='before-today' id='2018-02-21'><div class='ac' id='book-2018-02-21' data-theme='div' data-seq='2018-02-21' href=''>21</div></td><td align='center'class='before-today' id='2018-02-22'><div class='ac' id='book-2018-02-22' data-theme='div' data-seq='2018-02-22' href=''>22</div></td><td align='center'class='before-today' id='2018-02-23'><div class='ac' id='book-2018-02-23' data-theme='div' data-seq='2018-02-23' href=''>23</div></td><td align='center'class='before-today' id='2018-02-24'><div class='ac' id='book-2018-02-24' data-theme='div' data-seq='2018-02-24' href=''>24</div></td></tr><tr><td align='center'class='before-today' id='2018-02-25'><div class='ac' id='book-2018-02-25' data-theme='div' data-seq='2018-02-25' href=''>25</div></td><td align='center'class='before-today' id='2018-02-26'><div class='ac' id='book-2018-02-26' data-theme='div' data-seq='2018-02-26' href=''>26</div></td><td align='center'class='before-today' id='2018-02-27'><div class='ac' id='book-2018-02-27' data-theme='div' data-seq='2018-02-27' href=''>27</div></td><td align='center'class='before-today' id='2018-02-28'><div class='ac' id='book-2018-02-28' data-theme='div' data-seq='2018-02-28' href=''>28</div></td></tr>
+
+
+</table>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="tabl_4 col-md-6">
+
+
+
+<table id="table-4" border="1">
+
+
+
+<tr>
+
+
+
+	<td align="center"></td>
+
+
+
+	<td colspan="5" align="center">March, 2018</td>
+
+
+
+    <td align="center"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+	<td width="50px" align="center">Sun</td>
+
+
+
+    <td width="50px" align="center">Mon</td>
+
+
+
+    <td width="50px" align="center">Tues</td>
+
+
+
+    <td width="50px" align="center">Wed</td>
+
+
+
+    <td width="50px" align="center">Thu</td>
+
+
+
+    <td width="50px" align="center">Fri</td>
+
+
+
+    <td width="50px" align="center">Sat</td>
+
+
+
+</tr>
+
+
+
+
+
+
+
+<tr><td><div class='cell'></div></td><td><div class='cell'></div></td><td><div class='cell'></div></td><td><div class='cell'></div></td><td align='center'class='before-today' id='2018-03-01'class='booking-box' id='2018-03-01'><div class='ac' id='book-2018-03-01' data-theme='div' data-seq='2018-03-01' href=''>1</div></td><td align='center'class='before-today' id='2018-03-02'class='booking-box' id='2018-03-02'><div class='ac' id='book-2018-03-02' data-theme='div' data-seq='2018-03-02' href=''>2</div></td><td align='center'class='before-today' id='2018-03-03'class='booking-box' id='2018-03-03'><div class='ac' id='book-2018-03-03' data-theme='div' data-seq='2018-03-03' href=''>3</div></td></tr><tr><td align='center'class='before-today' id='2018-03-04'class='booking-box' id='2018-03-04'><div class='ac' id='book-2018-03-04' data-theme='div' data-seq='2018-03-04' href=''>4</div></td><td align='center'class='before-today' id='2018-03-05'class='booking-box' id='2018-03-05'><div class='ac' id='book-2018-03-05' data-theme='div' data-seq='2018-03-05' href=''>5</div></td><td align='center'class='before-today' id='2018-03-06'class='booking-box' id='2018-03-06'><div class='ac' id='book-2018-03-06' data-theme='div' data-seq='2018-03-06' href=''>6</div></td><td align='center'class='before-today' id='2018-03-07'class='booking-box' id='2018-03-07'><div class='ac' id='book-2018-03-07' data-theme='div' data-seq='2018-03-07' href=''>7</div></td><td align='center'class='before-today' id='2018-03-08'class='booking-box' id='2018-03-08'><div class='ac' id='book-2018-03-08' data-theme='div' data-seq='2018-03-08' href=''>8</div></td><td align='center'class='before-today' id='2018-03-09'class='booking-box' id='2018-03-09'><div class='ac' id='book-2018-03-09' data-theme='div' data-seq='2018-03-09' href=''>9</div><div class='first-half-book'><img src='img/left.png' /></div></td><td align='center'class='before-today' id='2018-03-10'class='booking-box' id='2018-03-10'><div class='ac' id='book-2018-03-10' data-theme='div' data-seq='2018-03-10' href=''>10</div><div class='full-book'><img src='img/full.png' /></div></td></tr><tr><td align='center'class='before-today' id='2018-03-11'class='booking-box' id='2018-03-11'><div class='ac' id='book-2018-03-11' data-theme='div' data-seq='2018-03-11' href=''>11</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-12'class='booking-box' id='2018-03-12'><div class='ac' id='book-2018-03-12' data-theme='div' data-seq='2018-03-12' href=''>12</div><div class='last-half-book'><img src='img/right.png' /></div></td><td align='center'class='before-today' id='2018-03-13'class='booking-box' id='2018-03-13'><div class='ac' id='book-2018-03-13' data-theme='div' data-seq='2018-03-13' href=''>13</div></td><td align='center'class='before-today' id='2018-03-14'class='booking-box' id='2018-03-14'><div class='ac' id='book-2018-03-14' data-theme='div' data-seq='2018-03-14' href=''>14</div><div class='first-half-book'><img src='img/left.png' /></div></td><td align='center'class='before-today' id='2018-03-15'class='booking-box' id='2018-03-15'><div class='ac' id='book-2018-03-15' data-theme='div' data-seq='2018-03-15' href=''>15</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-16'class='booking-box' id='2018-03-16'><div class='ac' id='book-2018-03-16' data-theme='div' data-seq='2018-03-16' href=''>16</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-17'class='booking-box' id='2018-03-17'><div class='ac' id='book-2018-03-17' data-theme='div' data-seq='2018-03-17' href=''>17</div><div class='last-half-book'><img src='img/right.png' /></div></td></tr><tr><td align='center'class='before-today' id='2018-03-18'class='booking-box' id='2018-03-18'><div class='ac' id='book-2018-03-18' data-theme='div' data-seq='2018-03-18' href=''>18</div></td><td align='center'class='before-today' id='2018-03-19'class='booking-box' id='2018-03-19'><div class='ac' id='book-2018-03-19' data-theme='div' data-seq='2018-03-19' href=''>19</div><div class='first-half-book'><img src='img/left.png' /></div></td><td align='center'class='before-today' id='2018-03-20'class='booking-box' id='2018-03-20'><div class='ac' id='book-2018-03-20' data-theme='div' data-seq='2018-03-20' href=''>20</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-21'class='booking-box' id='2018-03-21'><div class='ac' id='book-2018-03-21' data-theme='div' data-seq='2018-03-21' href=''>21</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-22'class='booking-box' id='2018-03-22'><div class='ac' id='book-2018-03-22' data-theme='div' data-seq='2018-03-22' href=''>22</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-23'class='booking-box' id='2018-03-23'><div class='ac' id='book-2018-03-23' data-theme='div' data-seq='2018-03-23' href=''>23</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-24'class='booking-box' id='2018-03-24'><div class='ac' id='book-2018-03-24' data-theme='div' data-seq='2018-03-24' href=''>24</div><div class='first-half-book'><img src='img/left.png' /></div><div class='last-half-book'><img src='img/right.png' /></div></td></tr><tr><td align='center'class='before-today' id='2018-03-25'class='booking-box' id='2018-03-25'><div class='ac' id='book-2018-03-25' data-theme='div' data-seq='2018-03-25' href=''>25</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-26'class='booking-box' id='2018-03-26'><div class='ac' id='book-2018-03-26' data-theme='div' data-seq='2018-03-26' href=''>26</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-27'class='booking-box' id='2018-03-27'><div class='ac' id='book-2018-03-27' data-theme='div' data-seq='2018-03-27' href=''>27</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-28'class='booking-box' id='2018-03-28'><div class='ac' id='book-2018-03-28' data-theme='div' data-seq='2018-03-28' href=''>28</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-29'class='booking-box' id='2018-03-29'><div class='ac' id='book-2018-03-29' data-theme='div' data-seq='2018-03-29' href=''>29</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-30'class='booking-box' id='2018-03-30'><div class='ac' id='book-2018-03-30' data-theme='div' data-seq='2018-03-30' href=''>30</div><div class='full-book'><img src='img/full.png' /></div></td><td align='center'class='before-today' id='2018-03-31'class='booking-box' id='2018-03-31'><div class='ac' id='book-2018-03-31' data-theme='div' data-seq='2018-03-31' href=''>31</div><div class='last-half-book'><img src='img/right.png' /></div></td></tr>
+
+
+</table>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<--------ends hiding 3rd And 4th table------------>
+
+
+
+
+
+
+
+</div>
+
+<div class="cal_details">
+
+
+
+	<ul>
+
+
+
+		<!--<li>Current Date <img src="images/current_date.png" alt="am"></li>-->
+
+
+
+		
+
+
+
+		<li>Start Date <img src="images/pm.png" alt="am"></li>
+
+
+
+		<li>End Date <img src="images/am.png" alt="pm"></li>
+
+
+
+		<li>Booked Date <img src="images/full_book.png" alt="full Book"></li>
+
+
+
+	</ul>
+
+
+
+</div>
+
+
+
+
+
+<div id="demo" style="display:none"></div>
+
+
+
+
+
+
+
+<!--
+
+
+
+<form id="my-form" method="post" action="contact.php">
+
+
+
+
+
+
+
+<input type="text" name="first" id="first-name" class="datepicker1" required="required" />
+
+
+
+<input type="text" name="last" id="last-name" class="datepicker1" required="required" />
+
+
+
+<input type="submit" class="book_submit" name="sub_book" value="Click to book" />
+
+
+
+
+
+
+
+</form>
+
+
+
+-->
+
+
+
+<!-- Pop Up form -->
+
+
+
+<div class="modal fade" id="my-form">
+
+
+
+	<div class="modal-dialog">
+
+
+
+    	<div class="modal-content">
+
+
+
+    		<div class="modal-header">
+
+
+
+            <button type="button" class="close" data-dismiss="modal" aria-label=""><span>&times;</span></button>
+
+
+
+            <h4 class="modal-title">Signup</h4>
+
+
+
+            </div>
+
+
+
+            <div class="modal-body">
+
+
+
+            <form class="form-horizontal">
+
+
+
+            	<div class="form-group">
+
+
+
+                	<label class="col-md-4 col-md-offset-1">Name</label>
+
+
+
+                    <div class="col-md-5">
+
+
+
+                    	<input type="text" class="form-control input-sm" />
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="form-group">
+
+
+
+
+                    <div class="col-md-5">
+
+
+
+                    	<input type="submit" class="form-control input-sm" />
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                 <div class="modal-footer">
+
+
+
+                 </div>  
+
+
+
+            </form> 
+
+
+
+		</div>
+
+
+
+	</div>
+
+
+
+</div>
+
+
+<div id="dialog" class="ui-dialog abc col-md-12" title="Basic dialog">
+
+
+
+<form method="post" id="myform" action="http://localhost/old/quote.php" target="_top">
+
+
+
+ 	        <div class="form-group"> 
+
+                    <div class="col-md-6">
+
+                     <label>Name</label>
+
+                    	<input type="text" name="name" id="name" required/>
+
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                      <label>Email</label>
+
+                    	<input type="email" name="email" id="email" required/>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+
+                    <div class="col-md-6">
+
+                   <label>Start date</label>
+
+                    	<input type="text" name="first" id="first-date" class="datepicker1" readonly="readonly"/>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                     <label>End date</label>
+
+                    	<input type="text" name="last" id="last-date" class="datepicker1" readonly="readonly"/>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="form-group">
+
+
+
+                
+
+
+
+                    <div class="col-md-12">
+	<label>Guests</label>
+
+
+                    	<select name="guest" class="form-control input-sm" required/>
+
+
+
+                          <option value="">--No of Guests--</option>
+
+
+
+                            <option value="1">1</option>
+
+
+
+                            <option value="2">2</option>
+
+
+
+                            <option value="3">3</option>
+
+
+
+                            <option value="4">4</option>
+
+
+
+                            <option value="5">5</option>
+
+
+
+                            <option value="6">6</option>
+
+
+
+                            <option value="7">7</option>
+
+
+
+                            <option value="8">8</option>
+
+
+
+                            <option value="9">9</option>
+
+
+
+                            <option value="10">10</option>
+
+                            <option value="11">11</option>           
+
+                            <option value="12">12</option>
+
+                          </select>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+                <div class="form-group">
+
+
+
+                    <div class="col-md-12 text-center">
+
+
+
+                    	<input type="hidden" name="pro_id" value="1"  />
+
+
+
+                        <input type="hidden" name="pro_head" value="The Bear Cliff Cabin"  />
+
+						<input type="hidden" name="redirect_url" value="1"  />
+
+                    	<input type="submit" name="book-sub" id="book-sub" class="form-control input-sm" value="Get Quote" />
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+</form>   
+
+
+
+</div>
+
+
+
+<script>
+
+
+
+/* MULTI-SELECT-SCRIPT */
+
+
+
+
+
+
+
+    $(document).ready(function(){
+
+
+
+		$('#my-form').hide();
+
+
+
+		$('.before-today').click(function(event){
+
+
+
+        event.stopPropagation();
+
+
+
+    });
+
+
+
+	$("div.full-book").parents("td").addClass('complete');
+
+
+
+	$("div.first-half-book").parents("td").addClass('start');
+
+
+
+	$("div.last-half-book").parents("td").addClass('end');
+
+
+
+	
+
+
+
+		$('.booking-box.complete').click(function(event){
+
+
+
+        event.stopPropagation();
+
+
+
+    });
+
+
+
+  
+
+
+
+	$('div.ac').click(function(){
+
+
+
+		
+
+
+
+		var pro_id = 1 ;
+
+
+
+		 var aj = $(this).data('seq');
+
+
+
+		 $('div.ac').removeClass('active');
+
+
+
+		 $(this).addClass('active');
+
+
+
+		 var k = $('#demo').append(aj+',');
+
+
+
+		  var ki = $('#demo').html();
+
+
+
+		$.ajax({
+
+
+
+  method: "POST",
+
+
+
+  url: "insert.php",
+
+
+
+  cache: false,
+
+
+
+  data: {data: ki, 'id': pro_id}
+
+
+
+  //data: $("div#myform :input").serializeArray()
+
+
+
+})
+
+
+
+   .done(function( msg ) {
+
+
+
+	  if(msg !=" ")
+
+
+
+	  {
+
+
+
+		  var count = ki.split(',').length; // results 4
+
+
+
+		  
+
+
+
+			if (count % 2 == 0)
+
+
+
+			{
+
+
+
+			  var cc = 'even';
+
+
+
+			}
+
+
+
+			else
+
+
+
+			{
+
+
+
+			  var cc = 'odd';
+
+
+
+			} 
+
+
+
+    $('.success-msg').html(msg);
+
+
+
+	var msg2 = msg;
+
+
+
+	
+
+
+
+	var msg1 = msg2.split(',');
+
+
+
+	var arr1 = jQuery.makeArray( msg1 );
+
+
+
+
+
+
+
+	
+
+
+
+	var lastEl = msg1.slice(-1)[0];
+
+
+
+	var one = msg1[0];
+
+
+
+	var first_date = one.replace('#', '');
+
+
+
+	var two = lastEl;
+
+
+
+	var last_date = two.replace('#', '');
+
+
+
+	fi = $("#first-date").val();
+
+
+
+	la = $("#last-date").val();
+
+
+
+
+
+
+
+	if((fi ===" ") || (la ===" ") || (arr1 == ""))
+
+
+
+	{
+
+
+
+		$( ".booking-box" ).removeClass( "selected" );
+
+
+
+		$("#dialog").dialog('close');
+
+
+
+	}
+
+
+
+	else
+
+
+
+	{
+
+
+
+		if(cc == 'even')
+
+
+
+		{
+
+
+
+			$( ".booking-box" ).removeClass( "selected" );
+
+
+
+		$("#dialog").dialog('close');
+
+
+
+		}
+
+
+
+		if(cc == 'odd')
+
+
+
+		{
+
+
+
+		 $("#dialog").dialog({
+
+
+
+        height: 1000,
+
+
+
+        width: 550,
+
+
+
+        resizable: false,
+
+
+
+        title: "Get Quote",
+
+
+
+		show: {effect: 'drop', direction: "up"},
+
+
+
+    });
+
+
+
+   var s = $("#first-date").val(first_date);
+
+
+
+	var l = $("#last-date").val(last_date);
+
+
+
+		jQuery.each( arr1, function( i, val) {
+
+
+
+	$( val ).addClass( "selected" );
+
+
+
+	// Will stop running after "three"
+
+
+
+  		//return ( val !== "three" );
+
+
+
+	});
+
+
+
+		}
+
+
+
+	}
+
+
+
+	  }
+
+
+
+	  else
+
+
+
+	  {
+
+
+
+		$( ".booking-box" ).removeClass( "selected" );
+
+
+
+		$("#dialog").dialog('close');
+
+
+
+	  }
+
+
+
+ 	 });
+
+
+
+	});
+
+
+
+	
+
+
+
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+<!-- Mirrored from localhost/old/calender/calender.php?property=1 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Dec 2018 16:46:37 GMT -->
+</html>

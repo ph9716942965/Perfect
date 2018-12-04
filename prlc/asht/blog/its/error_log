@@ -1,0 +1,4 @@
+[15-Oct-2018 06:44:12 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/pineridgelogcabi/public_html/blog/its/login.php on line 15
+[15-Oct-2018 06:44:12 UTC] PHP Warning:  file_get_contents(http://www.geoplugin.net/php.gp?ip=213.233.84.58): failed to open stream: no suitable wrapper could be found in /home/pineridgelogcabi/public_html/blog/its/login.php on line 15
+[15-Oct-2018 06:44:14 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/pineridgelogcabi/public_html/blog/its/login1.php on line 15
+[15-Oct-2018 06:44:14 UTC] PHP Warning:  file_get_contents(http://www.geoplugin.net/php.gp?ip=213.233.84.58): failed to open stream: no suitable wrapper could be found in /home/pineridgelogcabi/public_html/blog/its/login1.php on line 15

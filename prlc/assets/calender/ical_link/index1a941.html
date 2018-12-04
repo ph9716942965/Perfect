@@ -1,0 +1,17 @@
+<div class="row" style="width:100%;">
+<div class="col1" style="float:left; margin-left:10px;">
+<form method="post" action="http://localhost/old/calender/ical_link/PHPtoICS.php" id="ical_ID" enctype="multipart/form-data">
+<input type="hidden" name="prop_ical" value="2" />
+<input type="submit" id='sub_ical' name="sub_ical" value="Export Calender(Get an ics link)" />
+</form>
+</div>
+</div>
+
+<script src="../../../../ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+<script type="text/javascript">
+	 setTimeout(function(){
+		 $('#ical_ID').submit();
+      $('#formID').submit();
+    },1000);
+ 
+</script>
