@@ -1,0 +1,280 @@
+[06-May-2016 06:23:42 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/hutteenchantee/public_html/Calender/includes/db.php on line 8
+[15-Jun-2016 09:11:35 America/Chicago] PHP Warning:  include_once(../include/control.php): failed to open stream: No such file or directory in /home/orlandoprimrosev/public_html/calender/insert.php on line 2
+[15-Jun-2016 09:11:35 America/Chicago] PHP Warning:  include_once(): Failed opening '../include/control.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/orlandoprimrosev/public_html/calender/insert.php on line 2
+[15-Jun-2016 09:11:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/orlandoprimrosev/public_html/calender/insert.php:2) in /home/orlandoprimrosev/public_html/calender/insert.php on line 3
+[15-Jun-2016 09:11:35 America/Chicago] PHP Warning:  include_once(../include/control.php): failed to open stream: No such file or directory in /home/orlandoprimrosev/public_html/calender/insert.php on line 2
+[15-Jun-2016 09:11:35 America/Chicago] PHP Warning:  include_once(): Failed opening '../include/control.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/orlandoprimrosev/public_html/calender/insert.php on line 2
+[15-Jun-2016 09:11:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/orlandoprimrosev/public_html/calender/insert.php:2) in /home/orlandoprimrosev/public_html/calender/insert.php on line 3
+[15-Jun-2016 09:11:36 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/orlandoprimrosev/public_html/calender/insert.php on line 57
+[15-Jun-2016 09:11:36 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/orlandoprimrosev/public_html/calender/insert.php on line 58
+[15-Jun-2016 10:06:45 America/Chicago] PHP Warning:  include_once(includes/db.php): failed to open stream: No such file or directory in /home/orlandoprimrosev/public_html/calender/contact.php on line 2
+[15-Jun-2016 10:06:45 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/orlandoprimrosev/public_html/calender/contact.php on line 2
+[17-Jun-2016 14:41:34 America/Chicago] PHP Warning:  include_once(../includes/db.php): failed to open stream: No such file or directory in /home/linchpinproperti/public_html/calender/calender.php on line 1
+[17-Jun-2016 14:41:34 America/Chicago] PHP Warning:  include_once(): Failed opening '../includes/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/linchpinproperti/public_html/calender/calender.php on line 1
+[17-Jun-2016 14:41:34 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/linchpinproperti/public_html/calender/calender.php on line 19
+[17-Jun-2016 14:41:34 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/linchpinproperti/public_html/calender/calender.php on line 19
+[17-Jun-2016 14:43:30 America/Chicago] PHP Warning:  include_once(../include/db.php): failed to open stream: No such file or directory in /home/linchpinproperti/public_html/calender/calender.php on line 1
+[17-Jun-2016 14:43:30 America/Chicago] PHP Warning:  include_once(): Failed opening '../include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/linchpinproperti/public_html/calender/calender.php on line 1
+[17-Jun-2016 14:43:30 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/linchpinproperti/public_html/calender/calender.php on line 19
+[17-Jun-2016 14:43:30 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/linchpinproperti/public_html/calender/calender.php on line 19
+[11-Apr-2017 17:20:59 America/Chicago] PHP Warning:  include_once(../admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 2
+[11-Apr-2017 17:20:59 America/Chicago] PHP Warning:  include_once(): Failed opening '../admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 2
+[11-Apr-2017 17:21:00 America/Chicago] PHP Warning:  include_once(../admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 2
+[11-Apr-2017 17:21:00 America/Chicago] PHP Warning:  include_once(): Failed opening '../admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 2
+[11-Apr-2017 17:21:00 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 57
+[11-Apr-2017 17:21:00 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 58
+[11-Apr-2017 17:33:34 America/Chicago] PHP Warning:  include_once(../admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 2
+[11-Apr-2017 17:33:34 America/Chicago] PHP Warning:  include_once(): Failed opening '../admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 2
+[11-Apr-2017 17:33:34 America/Chicago] PHP Warning:  include_once(../admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 2
+[11-Apr-2017 17:33:34 America/Chicago] PHP Warning:  include_once(): Failed opening '../admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 2
+[11-Apr-2017 17:33:34 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 57
+[11-Apr-2017 17:33:34 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/greatweb/public_html/cabinfeverrentals/calender/insert.php on line 58
+[27-Apr-2017 03:49:16 UTC] PHP Warning:  cal_days_in_month() expects parameter 2 to be long, string given in /home3/greatweb/public_html/cabinfeverrentals.net/calender/calender.php on line 971
+[17-May-2017 01:32:16 America/Chicago] PHP Warning:  include_once(../admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/cabinfeverrentals.net/calender/contact.php on line 2
+[17-May-2017 01:32:16 America/Chicago] PHP Warning:  include_once(): Failed opening '../admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/cabinfeverrentals.net/calender/contact.php on line 2
+[25-May-2017 16:00:55 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/calender.php on line 55
+[25-May-2017 16:00:55 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/calender.php on line 55
+[25-May-2017 16:00:55 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/calender.php on line 119
+[25-May-2017 16:00:55 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/calender.php on line 119
+[25-May-2017 16:41:31 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 16:41:31 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 16:41:33 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 16:41:33 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 16:41:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 57
+[25-May-2017 16:41:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 58
+[25-May-2017 17:17:39 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 17:17:39 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 17:17:40 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 17:17:40 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 17:17:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 57
+[25-May-2017 17:17:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 58
+[25-May-2017 17:18:09 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 17:18:09 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 17:18:09 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 17:18:09 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[25-May-2017 17:18:09 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 57
+[25-May-2017 17:18:09 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 58
+[26-May-2017 09:47:03 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 09:47:03 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 09:47:03 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 09:47:03 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 09:47:03 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 57
+[26-May-2017 09:47:03 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 58
+[26-May-2017 10:17:13 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 10:17:13 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 10:17:14 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 10:17:14 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 10:17:14 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 57
+[26-May-2017 10:17:14 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 58
+[26-May-2017 10:25:34 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 10:25:34 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 10:25:35 America/Chicago] PHP Warning:  include_once(../wp-admin/include/db.php): failed to open stream: No such file or directory in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 10:25:35 America/Chicago] PHP Warning:  include_once(): Failed opening '../wp-admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 2
+[26-May-2017 10:25:35 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 57
+[26-May-2017 10:25:35 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/greatweb/public_html/oceanleisurerentals.com/calender/insert.php on line 58
+[29-Sep-2017 17:04:11 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[30-Sep-2017 17:54:28 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[02-Oct-2017 08:12:59 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[04-Oct-2017 14:51:12 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[11-Oct-2017 03:44:04 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[11-Oct-2017 03:44:07 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[12-Oct-2017 23:42:16 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[13-Oct-2017 03:01:35 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[14-Oct-2017 21:54:34 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[16-Oct-2017 09:36:49 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[26-Oct-2017 07:52:42 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[27-Oct-2017 21:51:45 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[31-Oct-2017 21:00:56 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[02-Nov-2017 19:36:08 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 02:01:32 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:57:49 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:57:51 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:57:52 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:57:54 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:57:54 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:57:56 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:57:57 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:58:23 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:58:24 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 15:58:25 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 16:32:35 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 18:34:31 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 19:23:33 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 19:23:35 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 19:23:36 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[03-Nov-2017 19:23:37 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[06-Nov-2017 21:12:56 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[13-Nov-2017 21:03:00 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[15-Nov-2017 16:48:36 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[15-Nov-2017 17:18:22 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[15-Nov-2017 17:18:24 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[20-Nov-2017 22:00:05 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/kapohooceanfronthouse.com/calender/calender.php on line 45
+[10-Mar-2018 22:58:45 America/Chicago] PHP Warning:  include_once(../admin/include/db.php): failed to open stream: No such file or directory in /home/kapohooceanfront/public_html/calender/calender.php on line 55
+[10-Mar-2018 22:58:45 America/Chicago] PHP Warning:  include_once(): Failed opening '../admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kapohooceanfront/public_html/calender/calender.php on line 55
+[10-Mar-2018 22:58:45 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kapohooceanfront/public_html/calender/calender.php on line 119
+[10-Mar-2018 22:58:45 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kapohooceanfront/public_html/calender/calender.php on line 119
+[11-Mar-2018 05:07:37 America/Chicago] PHP Warning:  include_once(../admin/include/db.php): failed to open stream: No such file or directory in /home/kapohooceanfront/public_html/calender/calender.php on line 55
+[11-Mar-2018 05:07:37 America/Chicago] PHP Warning:  include_once(): Failed opening '../admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kapohooceanfront/public_html/calender/calender.php on line 55
+[11-Mar-2018 05:07:37 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kapohooceanfront/public_html/calender/calender.php on line 119
+[11-Mar-2018 05:07:37 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kapohooceanfront/public_html/calender/calender.php on line 119
+[12-Mar-2018 08:16:39 America/Chicago] PHP Warning:  include_once(../admin/include/db.php): failed to open stream: No such file or directory in /home/kapohooceanfront/public_html/calender/calender.php on line 55
+[12-Mar-2018 08:16:39 America/Chicago] PHP Warning:  include_once(): Failed opening '../admin/include/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/kapohooceanfront/public_html/calender/calender.php on line 55
+[12-Mar-2018 08:16:39 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/kapohooceanfront/public_html/calender/calender.php on line 119
+[12-Mar-2018 08:16:39 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/kapohooceanfront/public_html/calender/calender.php on line 119
+[29-Mar-2018 16:37:24 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/mygulfcondovacation.com/calender/calender.php on line 45
+[29-Mar-2018 16:37:36 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/mygulfcondovacation.com/calender/calender.php on line 45
+[29-Mar-2018 16:37:55 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/mygulfcondovacation.com/calender/calender.php on line 45
+[12-Apr-2018 09:18:58 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[13-Apr-2018 21:33:42 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[15-Apr-2018 01:05:00 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[19-Apr-2018 02:01:58 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[27-Apr-2018 13:12:45 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[27-Apr-2018 13:12:48 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[27-Apr-2018 13:12:49 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[27-Apr-2018 13:12:51 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[11-May-2018 19:56:00 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[11-May-2018 19:56:04 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[11-May-2018 20:39:07 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[12-May-2018 16:30:35 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[15-May-2018 03:23:15 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[16-May-2018 13:38:42 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[16-May-2018 15:41:49 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[16-May-2018 23:07:59 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[18-May-2018 05:51:12 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[19-May-2018 14:40:57 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[20-May-2018 02:42:18 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[05-Jun-2018 10:17:04 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[05-Jun-2018 17:09:22 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[06-Jun-2018 02:47:41 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[14-Jun-2018 01:40:29 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[14-Jun-2018 01:41:16 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[14-Jun-2018 02:51:40 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[24-Jun-2018 11:14:33 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[04-Jul-2018 23:20:49 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[11-Jul-2018 16:36:21 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[11-Jul-2018 20:35:58 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[11-Jul-2018 20:35:58 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[11-Jul-2018 20:35:58 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[12-Jul-2018 21:48:35 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[12-Jul-2018 21:48:35 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[12-Jul-2018 21:48:56 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[13-Jul-2018 11:46:04 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[13-Jul-2018 11:46:04 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[13-Jul-2018 11:46:04 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[13-Jul-2018 19:22:31 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[15-Jul-2018 22:03:57 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[19-Jul-2018 11:46:42 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[19-Jul-2018 11:46:50 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[19-Jul-2018 11:47:05 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[19-Jul-2018 11:47:18 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[21-Jul-2018 14:35:11 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[21-Jul-2018 19:10:42 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[21-Jul-2018 19:53:55 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[22-Jul-2018 19:09:30 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[23-Jul-2018 15:41:49 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[23-Jul-2018 15:41:57 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[23-Jul-2018 18:00:08 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[23-Jul-2018 18:00:30 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[23-Jul-2018 20:29:26 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[24-Jul-2018 09:11:28 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[24-Jul-2018 17:17:43 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[24-Jul-2018 17:17:44 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[24-Jul-2018 17:17:44 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[24-Jul-2018 19:12:22 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[24-Jul-2018 19:12:23 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[24-Jul-2018 19:12:23 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[25-Jul-2018 05:33:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[25-Jul-2018 05:35:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[25-Jul-2018 08:25:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 1489
+[25-Jul-2018 08:27:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[25-Jul-2018 11:13:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[25-Jul-2018 14:36:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[25-Jul-2018 14:36:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[25-Jul-2018 14:37:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[25-Jul-2018 14:40:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[25-Jul-2018 14:41:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[26-Jul-2018 01:00:30 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[26-Jul-2018 01:00:30 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[26-Jul-2018 01:00:30 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[26-Jul-2018 19:09:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[26-Jul-2018 19:51:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[26-Jul-2018 19:58:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[27-Jul-2018 16:08:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[27-Jul-2018 16:10:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[27-Jul-2018 20:30:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[28-Jul-2018 00:52:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[28-Jul-2018 00:54:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[28-Jul-2018 15:13:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[28-Jul-2018 16:02:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[28-Jul-2018 18:48:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[28-Jul-2018 19:09:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[29-Jul-2018 22:51:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[30-Jul-2018 01:20:55 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[30-Jul-2018 01:20:55 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[30-Jul-2018 01:20:55 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[30-Jul-2018 01:59:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[30-Jul-2018 02:01:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[30-Jul-2018 05:45:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[30-Jul-2018 10:42:31 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[30-Jul-2018 10:42:32 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[30-Jul-2018 12:17:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[30-Jul-2018 12:18:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[30-Jul-2018 12:27:30 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[30-Jul-2018 13:15:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[30-Jul-2018 20:51:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 2751
+[31-Jul-2018 23:44:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 00:20:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 00:22:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 18:19:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 18:19:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 18:22:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 18:22:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 18:32:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 18:44:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 18:53:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 18:57:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 18:58:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[01-Aug-2018 19:02:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 165
+[02-Aug-2018 03:23:26 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[02-Aug-2018 03:23:26 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[02-Aug-2018 03:23:27 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[03-Aug-2018 03:57:29 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[03-Aug-2018 03:57:29 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[03-Aug-2018 03:57:29 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[04-Aug-2018 12:52:19 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[05-Aug-2018 05:05:40 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[05-Aug-2018 05:05:40 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[05-Aug-2018 05:05:40 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[06-Aug-2018 12:47:05 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[06-Aug-2018 16:17:10 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[07-Aug-2018 03:41:00 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[07-Aug-2018 10:58:05 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 45
+[07-Aug-2018 10:58:06 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[07-Aug-2018 10:58:06 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3911
+[07-Aug-2018 21:02:07 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[08-Aug-2018 05:26:49 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/greatwebsnew/public_html/collettcreekcabin.com/calender/calender.php on line 3724
+[15-Aug-2018 13:44:48 UTC] PHP Warning:  include_once(../linda-admin/include/db.php): failed to open stream: No such file or directory in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 55
+[15-Aug-2018 13:44:48 UTC] PHP Warning:  include_once(): Failed opening '../linda-admin/include/db.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 55
+[15-Aug-2018 13:44:48 UTC] PHP Notice:  Undefined variable: conn in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:44:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:44:48 UTC] PHP Notice:  Undefined variable: conn in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:44:48 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:45:47 UTC] PHP Warning:  include_once(../linda-admin/include/db.php): failed to open stream: No such file or directory in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 55
+[15-Aug-2018 13:45:47 UTC] PHP Warning:  include_once(): Failed opening '../linda-admin/include/db.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 55
+[15-Aug-2018 13:45:47 UTC] PHP Notice:  Undefined variable: conn in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:45:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:45:47 UTC] PHP Notice:  Undefined variable: conn in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:45:47 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:46:24 UTC] PHP Warning:  include_once(../linda-admin/include/db.php): failed to open stream: No such file or directory in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 55
+[15-Aug-2018 13:46:24 UTC] PHP Warning:  include_once(): Failed opening '../linda-admin/include/db.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 55
+[15-Aug-2018 13:46:24 UTC] PHP Notice:  Undefined variable: conn in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:46:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:46:24 UTC] PHP Notice:  Undefined variable: conn in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[15-Aug-2018 13:46:24 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 119
+[20-Aug-2018 07:31:10 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 45
+[20-Aug-2018 07:31:10 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 3911
+[21-Aug-2018 15:51:45 UTC] PHP Notice:  Undefined index: myVar in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 45
+[21-Aug-2018 15:51:45 UTC] PHP Notice:  Undefined variable: pro_head in /home/greatwebsnew/public_html/johnmaltry/calender/calender.php on line 3911
+[25-Sep-2018 14:15:28 UTC] PHP Notice:  Undefined index: myVar in /home/dbkpesrhim7z/public_html/ashevillelodgings.com/calender/calender.php on line 45
+[25-Sep-2018 14:15:28 UTC] PHP Notice:  Undefined index: myVar in /home/dbkpesrhim7z/public_html/ashevillelodgings.com/calender/calender.php on line 45
+[25-Sep-2018 14:15:29 UTC] PHP Notice:  Undefined index: myVar in /home/dbkpesrhim7z/public_html/ashevillelodgings.com/calender/calender.php on line 45

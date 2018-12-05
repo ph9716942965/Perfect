@@ -1,0 +1,513 @@
+
+
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Asheville Lodgings</title>
+
+<!-- Stylesheets -->
+<link href="<?php echo base_url('assets/');?>css/style.css" rel="stylesheet">
+<link href="<?php echo base_url('assets/');?>css/responsive.css" rel="stylesheet">
+<link rel="icon" href="<?php echo base_url('assets/');?>images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<!-- page wrapper -->
+<body class="page-wrapper">
+    <!-- .preloader -->
+    <div class="preloader"></div>
+    <!-- main header area -->
+    <header class="main-header header-style-two">
+        <!-- main-menu -->
+        <div class="theme_menu stricky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="logo-box" style="margin-top:-15px">
+                            <a href="index.php"><figure><img src="<?php echo base_url('assets/');?>images/ash-logo.png" style="width:300px" alt=""></figure></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12 col-xs-12">
+                        <div class="menu-area">
+                            <nav class="main-menu">
+                                <div class="navbar-header">     
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li class="current"><a href="index.php">Home</a></li>
+                                        
+                                        <li class="dropdown"><a href="all-vacation.php">Vacation Rentals</a>
+                                            <ul class="submenu">
+                                                    <li><a href="property/1">Hidden Pond</a></li>
+                                                    <li><a href="property/2">Long Range Mountain Views</a></li>
+                                                    <li><a href="property/3">Serene Mountain Vacation Home</a></li>
+                                            </ul>
+                                        </li> 
+										
+<li  >
+<a href="<?php echo base_url();?>" target="_blank">Log Cabins</a></li>										
+                                        <li class=""><a href="reviews.php">Reviews</a></li>
+										<li class=""><a href="attractions.php">Attractions</a></li> 
+                                        <li class=""><a href="contact-us.php">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                    <!-- mobile menu -->
+                                    <ul class="mobile-menu clearfix">
+                                        <li class="current"><a href="index.php">Home</a></li>
+                                        
+                                        <li class="dropdown"><a href="all-vacation.php">Vacation Rentals</a>
+                                            <ul>
+                                                                                       <li><a href="property/1">Hidden Pond</a></li>
+                                                                                               <li><a href="property/2">Long Range Mountain Views</a></li>
+                                                                                               <li><a href="property/3">Serene Mountain Vacation Home</a></li>
+                                                                                           </ul>
+                                        </li>
+                                        <li><a href="<?php echo base_url();?>" target="_blank">Log Cabins</a></li>
+                                        <li><a href="reviews.php">Reviews</a></li>
+										                                        <li><a href="attractions.php">Attractions</a></li> 
+                                        <li><a href="contact-us.php">Contact Us</a>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <ul class="header-social">
+                                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://plus.google.com/"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+    </header>
+    <!-- end main header area -->
+ 
+
+
+
+    <!-- Banner -->
+    <div id="bannera">
+        <div class="rev_slider_wrapper banner-style-two">
+            <!-- START REVOLUTION SLIDER 5.0 auto mode -->
+                <div id="main_slider" class="rev_slider" data-version="5.0">
+                    <ul>
+                        
+                        <!-- SLIDE1  -->
+                        <li data-index='rs-377' data-transition='curtain-1' data-slotamount='1' data-easein='default' data-easeout='default' data-masterspeed='default' data-thumb='<?php echo base_url('assets/');?>images/slider/1.jpg' data-rotate='0' data-saveperformance='off' data-title='Business Solutions' data-description='' >
+                            <!-- MAIN IMAGE -->
+                            <img src="<?php echo base_url('assets/');?>images/slider/1.jpg"  alt="image"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption tp-resizeme rs-parallaxlevel-3" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['-72','-150','-160','-120']"
+                                data-width="none"
+                                data-height="none"
+                                data-transform_idle="o:1;"
+                                data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                data-start="1000"
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+                                data-elementdelay="0.05" 
+                                style="z-index: 5;">
+                                <div class="tp-title">Asheville Cabins and Vacation Rentals</div>
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption tp-resizeme" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['32','-40','-60','-20']"
+                                data-width="none"
+                                data-height="none"
+                                data-transform_idle="o:1;"
+                                data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                data-start="1500"
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+                                data-elementdelay="0.05" 
+                                style="z-index: 5;">
+                                <h1>A home away from home</h1>
+                            </div>
+
+ 
+
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption tp-resizeme" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['165','70','60','80']" 
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-transform_idle="o:1;"
+                     
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:[100%];" 
+                                data-mask_out="x:inherit;y:inherit;" 
+                                data-start="2500" 
+                                data-splitin="none" 
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+                                style="z-index: 6; white-space: nowrap;">
+                                <div class="button">
+                                    <a href="all-vacation.php" class="btn-one">More Info</a>
+                                    <a href="contact-us.php" class="btn-two">Contact Us</a>
+                                </div>
+                            </div>
+                        
+                        </li>
+
+
+
+                        <!-- SLIDE2  -->
+                        <li data-index="rs-378" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="<?php echo base_url('assets/');?>images/slider3.png"  data-rotate="0"  data-saveperformance="off"  data-title="Successful Careers" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="<?php echo base_url('assets/');?>images/slider3.png"  alt=""  data-bgposition="top center" class="rev-slidebg" data-no-retina>
+
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption tp-resizeme rs-parallaxlevel-3" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['-72','-150','-160','-120']"
+                                data-width="none"
+                                data-height="none"
+                                data-transform_idle="o:1;"
+                                data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                data-start="1000"
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+                                data-elementdelay="0.05" 
+                                style="z-index: 5;">
+                                <div class="tp-title">Asheville Cabins and Vacation Rentals</div>
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption tp-resizeme" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['32','-40','-60','-20']"
+                                data-width="none"
+                                data-height="none"
+                                data-transform_idle="o:1;"
+                                data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                data-start="1500"
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+                                data-elementdelay="0.05" 
+                                style="z-index: 5;">
+                                <h1>A home away from home</h1>
+                            </div>
+
+ 
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption tp-resizeme" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['165','70','60','80']" 
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-transform_idle="o:1;"
+                     
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:[100%];" 
+                                data-mask_out="x:inherit;y:inherit;" 
+                                data-start="2500" 
+                                data-splitin="none" 
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+                                style="z-index: 6; white-space: nowrap;">
+                                <div class="button">
+                                    <a href="all-vacation.php" class="btn-one">More Info</a>
+                                    <a href="contact-us.php" class="btn-two">Contact Us</a>
+                                </div>
+                            </div>
+
+                        </li>
+						
+						<!-- SLIDE3  -->
+                        <li data-index="rs-370" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="<?php echo base_url('assets/');?>images/slider3.png"  data-rotate="0"  data-saveperformance="off"  data-title="Successful Careers" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="<?php echo base_url('assets/');?>images/slider2.png"  alt=""  data-bgposition="top center" class="rev-slidebg" data-no-retina>
+
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption tp-resizeme rs-parallaxlevel-3" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['-72','-150','-160','-120']"
+                                data-width="none"
+                                data-height="none"
+                                data-transform_idle="o:1;"
+                                data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                data-start="1000"
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+                                data-elementdelay="0.05" 
+                                style="z-index: 5;">
+                                <div class="tp-title">Asheville Cabins and Vacation Rentals</div>
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption tp-resizeme" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['32','-40','-60','-20']"
+                                data-width="none"
+                                data-height="none"
+                                data-transform_idle="o:1;"
+                                data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                data-start="1500"
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+                                data-elementdelay="0.05" 
+                                style="z-index: 5;">
+                                <h1>A home away from home</h1>
+                            </div>
+
+ 
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption tp-resizeme" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['165','70','60','80']" 
+                                data-width="none"
+                                data-height="none"
+                                data-whitespace="nowrap"
+                                data-transform_idle="o:1;"
+                     
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:[100%];" 
+                                data-mask_out="x:inherit;y:inherit;" 
+                                data-start="2500" 
+                                data-splitin="none" 
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+                                style="z-index: 6; white-space: nowrap;">
+                                <div class="button">
+                                    <a href="all-vacation.php" class="btn-one">More Info</a>
+                                    <a href="contact-us.php" class="btn-two">Contact Us</a>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>   
+                </div>
+            </div><!-- END REVOLUTION SLIDER -->
+    </div> <!-- End of #banner -->
+
+<section class="welcome-section">
+        <div class="container">
+            <div class="welcome-title centred">
+                <div class="title-top">Welcome</div>
+                <div class="title">{home_heading}</div>
+                <div class="title-text font_size_16">{home_content}</div>
+            </div>
+            <div class="row">
+
+            {property_r}
+                <div class="col-md-4 col-sm-6 col-xs-12 welcome-column">
+                    <div class="single-item">
+                        <div class="img-box"><figure>
+                            <a href="property/{property_id}"><img style="height:270px" src="<?php echo base_url();?>uploads/{property_id}/{file_name}" alt=""></a></figure></div>
+                        <div class="lower-content" style="text-align:center">
+                            <div class="content-text">
+                                <h3 style="font-size:21px">{property_heading}</h3> 
+                            </div>
+                            <div class="button"><a href="property/{property_id}">Book Now</a></div>
+                        </div>
+                    </div>
+                </div>
+            {/property_r}
+                <?php /* <div class="col-md-4 col-sm-6 col-xs-12 welcome-column">
+                    <div class="single-item">
+                        <div class="img-box"><figure>
+                            <a href="property/2"><img style="height:270px" src="uploads/2/1.jpg" alt=""></a></figure></div>
+                        <div class="lower-content" style="text-align:center">
+                            <div class="content-text">
+                                <h3 style="font-size:21px">Long Range Mountain Views</h3> 
+                            </div>
+                            <div class="button"><a href="property/2">Book Now</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12 welcome-column">
+                    <div class="single-item">
+                        <div class="img-box"><figure>
+                            <a href="property/3"><img style="height:270px" src="<?php echo base_url('assets/');?>uploads/3/4.jpg" alt=""></a></figure></div>
+                        <div class="lower-content" style="text-align:center">
+                            <div class="content-text">
+                                <h3 style="font-size:21px">Serene Mountain Vacation Home</h3> 
+                            </div>
+                            <div class="button"><a href="property/3">Book Now</a></div>
+                        </div>
+                    </div>
+                </div>*/ ?>
+
+                            
+            </div>
+        </div>
+    </section>
+	<section class="welcome-section">
+        <div class="container">
+            <div class="welcome-title centred">
+                <div class="title-top">Attractions</div>
+                <div class="title">Asheville Cabins and Vacation Rentals</div>
+			</div>
+		</div>
+	</section>			
+    <!-- gallery section -->
+    <section class="gallery-section" ng-controller="myCtrl">
+        <div class="container-fluid">		
+            <div class="four-column-carousel">
+    {gallery}
+                <div class="single-item" ng-repeat="x in records">
+                    <div class="single-item-overlay">
+                        <div class="img-box">
+                            <img style="height:270px" src="<?php echo base_url('assets/');?>/{img}" alt="">
+                            <a href="attractions.php" class="overlay">
+                                <div class="inner-box">
+                                    <div class="content">
+                                    <?php $hd="{heading}"; ?>
+                                        <div class="text"><?php echo base64_decode($hd); ?></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+    {/gallery}
+            
+                
+            </div>
+            <div class="link-text centred">Please click on button arrow in order to view more or <a href="attractions.php">View all</a> Attractions</div>
+        </div>
+    </section>
+    <!-- gallery section end -->
+
+
+
+
+    <!-- testimonials section -->
+    <section class="testimonials-section">
+        <div class="testimonial-area">
+            <div class="container">
+                <div class="sec-title"><h2>Guest Reviews</h2></div>
+                <div class="tit-text"></div>
+                <div class="three-column-carousel">
+                {guest_r}  
+                    <div class="testimonials-content">
+                        <div class="author-info">
+                            <div class="author">
+                                <h4>{heading}</h4>
+                                <div class="author-title">{c_name}</div>
+                            </div>
+                        </div>
+                        <div class="text"><p>{c_review}<a href=reviews.php style=font-weight:bold;color:blue;>...Read More</a> </div>
+                    </div>
+                {/guest_r}
+                    
+                </div>
+            </div>
+        </div>
+         
+    </section>
+    <!-- testimonials section end -->
+
+    <!-- main footer area -->
+    <footer class="main-footer-area footer-style-two">
+        <div class="container">
+            <div class="footer-top centred sec-pad">
+                <div class="footer-logo"><a href="index.php"><figure><img src="images/ash-logo.png" alt=""></figure></a></div>
+                <ul class="footer-menu">
+                    <li><a href="index.php" class="active">Home</a></li> 
+                    <li><a href="reviews.php" class="">Reviews</a></li>
+                    <li><a href="attractions.php" class="">Attractions</a></li> 
+                    <li><a href="contact-us.php" class="">Contact Us</a></li>
+                </ul>
+                <ul class="footer-social">
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://plus.google.com/"><i class="fab fa-google-plus-g"></i></a></li> 
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom centred">
+            <div class="copyright">Copyright &copy; 2018 <a href="#">Asheville Lodgings</a>. All Rights Reserved</div>
+			<div class="copyright">Designed & Developed By <a href="https://greatwebmakers.com/"><img src="https://greatwebmakers.com/images/logo.png" style="width:165px" /></a></div>
+        </div>
+    </footer>
+    <!-- main-footer-area end -->
+
+
+    
+<!--End pagewrapper-->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="icon fa fa-angle-up"></span></div>
+
+
+<!--jquery js -->
+
+
+<script type="text/javascript" src="<?php echo base_url('assets/');?>js/jquery-2.1.4.js"></script>
+<script src="<?php echo base_url('assets/');?>js/bootstrap.min.js"></script>
+<script src="<?php echo base_url('assets/');?>js/owl.carousel.min.js"></script>
+<script src="<?php echo base_url('assets/');?>js/wow.js"></script>
+<script src="<?php echo base_url('assets/');?>js/validation.js"></script>
+<script src="<?php echo base_url('assets/');?>js/isotope.js"></script>
+<script src="<?php echo base_url('assets/');?>js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/');?>js/SmoothScroll.js"></script>
+<script src="<?php echo base_url('assets/');?>js/html5lightbox/html5lightbox.js"></script>
+<script src="<?php echo base_url('assets/');?>js/jquery.countdown.js"></script> 
+
+<!-- revolution -->
+<script src="<?php echo base_url('assets/');?>vendor/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="<?php echo base_url('assets/');?>vendor/revolution/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/');?>vendor/revolution/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/');?>vendor/revolution/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/');?>vendor/revolution/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/');?>vendor/revolution/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/');?>vendor/revolution/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/');?>vendor/revolution/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/');?>vendor/revolution/revolution.extension.migration.min.js"></script>
+<script src="<?php echo base_url('assets/');?>js/script.js"></script>
+<script src="http://tna.aztechtcs.com/assets/angular.min.js" ></script>
+<script>
+var app = angular.module("myApp", []);
+app.controller("myCtrl", function($scope) {
+    $scope.records = <?php echo $this->Api->property_h();?>});
+</script>
+<!-- End of .page_wrapper -->
+</body> 
+</html>
